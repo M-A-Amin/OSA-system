@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    font-family: 'Roboto' , sans-serif;
+ }
+ .header {
+   background-color: #0037ff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 50px;
+ }
+ .logo {
+   width: 100px;
+   
+ }
+ .logo-name {
+    display: flex;
+    gap: 30px;
+}
+ .header-links a {
+   color: white;
+   padding: 5px 30px;
+   text-decoration: none;
+   border-radius: 15px;
+ }
+ .header-links a:hover {
+  color:  #b36b00;     ;
+  background-color: #ffb84d;
+ }
+ .btn {
+   background-color: #bababa;
+   color: #19194d;
+   font-size: x-large;
+   font-weight: bolder;
+   border: none;
+   border-radius: 15px;
+   padding: 30px 50px;
+ }
+ .btn:hover {
+   background-color: #19194d;
+   border-radius: 15px;
+ }
+ .landing-page {
+  background-color: #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+  color: #19194d;
+  border-radius: 0 0 50px 50px;
+ }
+.btn-container {
+    padding: 50px 50px;
+    justify-content: space-between;
+    justify-items: center;
+}
+.landing-page-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+.landing-page-left-section h3 {
+  font-size: 30px;
+}
+ .landing-page-search input{
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+ }
+ .landing-page-button {
+     position: absolute;
+     left: 190px;
+     height: 30px;
+ }
+.landing-page-image-container img {
+border-radius: 50px;
+}
+.landing-page-left-section {
+  width: 500px;
+}
+.trending-container {
+  padding: 10px 50px;
+}
+.trending-container span {
+  color: #ff9900;
+  text-transform: uppercase;
+}
+.view-all-button {
+  position: absolute;
+  height: 30px;
+}
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trending-header h1 {
+  margin-top: 0;
+}
+.card {
+  width: 250px;
+  background-color: #ff9900;
+  border-radius: 10px;
+}
+.card img {
+  width: 250px;
+  border-radius: 10px 10px 0 0;
+}
+.card-info {
+
+  padding: 0px 10px;
+  border-radius: 0 0 10px 10px;
+  color: #19194d;
+  margin: none;
+}
+.card-info img {
+  width: 30px;
+}
+.card-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trending-cards {
+  display: flex;
+  gap: 30px;
+}
+
+.dynamic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: #ff9900;
+  font-family: Arial, sans-serif;
+}
+
+.dynamic-text {
+  font-size: 2rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.dynamic-text::before {
+  content: "Online Studies Admininstration";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #19194d;
+  overflow: hidden;
+  border-right: 2px solid white; /* Optional blinking cursor */
+  animation: sliding 4s linear infinite;
+}
+
+@keyframes sliding {
+  0% {
+      clip-path: inset(0 100% 0 0); /* Start hidden */
+  }
+  100% {
+      clip-path: inset(0 0 0 0); /* Fully revealed */
+  }
+}
+
+.trending-cards a {
+  color: #19194d;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+}
+.main-head {
+   justify-items: center;
+  }
+  .gradient-header {
+    background-image: linear-gradient(to right, #2597AE, #0F3E48);
+  }
+.gradient-landing {
+    background-image: linear-gradient(to bottom, #d9d9d9, #b9b9b9);
+}
+.buttons {
+    margin: 30px;
+    justify-content: space-between;
+    
+}

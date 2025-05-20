@@ -1,0 +1,65 @@
+.main-head {
+    justify-items: center;
+   }
+   .gradient-header {
+     background-image: linear-gradient(to right, #2597AE, #0F3E48);
+   }
+   .logo-name {
+    display: flex;
+    gap: 10px;
+}
+ .gradient-landing {
+     background-image: linear-gradient(to bottom, #d9d9d9, #b9b9b9);
+ }
+ .buttons {
+     margin: 30px;
+     justify-content: space-between;
+     
+ }
+ .btn {
+    background-color: #bababa;
+    color: #19194d;
+    font-size: x-large;
+    font-weight: bolder;
+    border: none;
+    border-radius: 15px;
+    padding: 30px 50px;
+    margin: 30px;
+  }
+  .btn:hover {
+    background-image: linear-gradient(#919191, #646464);
+    border-radius: 15px;
+    color: #2597AE;
+  }
+  .landing-page {
+   background-image: linear-gradient(to top, #d8d8d8, #484848);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 30px;
+   color: #19194d;
+   border-radius: 0 0 50px 50px;
+  }
+ .btn-container {
+     padding: 30px 30px;
+     justify-content: space-between;
+     justify-items: center;
+     
+ }
+ .backage3 {
+    padding: 100px;
+    background-image: linear-gradient( #005C6F, #21255B);
+    border-radius: 40px 40px 0 0;
+
+ }
+ .sitename {
+  color: #19194d;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-style: oblique;
+  
+
+ }
+ .logo {
+height: 40px;
+ }
