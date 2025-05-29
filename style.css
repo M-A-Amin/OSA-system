@@ -16,7 +16,7 @@
      justify-content: space-between;
      
  }
- .btn {
+ .bttn {
     background-color: #bababa;
     color: #19194d;
     font-size: x-large;
@@ -26,10 +26,10 @@
     padding: 30px 50px;
     margin: 30px;
   }
-  .btn:hover {
+  .bttn:hover {
     background-image: linear-gradient(#919191, #646464);
     border-radius: 15px;
-    color: #2597AE;
+    color: #74ccdd;
   }
   .landing-page {
    background-image: linear-gradient(to top, #d8d8d8, #484848);
@@ -40,7 +40,7 @@
    color: #19194d;
    border-radius: 0 0 50px 50px;
   }
- .btn-container {
+ .bttn-container {
      padding: 30px 30px;
      justify-content: space-between;
      justify-items: center;
@@ -62,4 +62,11 @@
  }
  .logo {
 height: 40px;
+ }
+
+ .bttn-container2 {
+     padding: 30px 30px;
+     justify-content: space-between;
+    
+
  }
